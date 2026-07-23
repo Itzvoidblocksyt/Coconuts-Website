@@ -1,0 +1,44 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Void Coconut</title>
+    <meta name="description" content="A simple creator link page with social links and video content." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="top-nav">
+        <a href="#home">Home</a>
+        <a href="#links">Links</a>
+      </nav>
+
+      <section id="home" class="hero">
+        <p class="eyebrow">welcome</p>
+        <h1>Welcome to Coconut's website</h1>
+        <p class="subtitle"><strong>Coconuts Palmtree</strong> is a friendly creator community where you can watch videos, connect with others, and enjoy a fun tropical-themed experience. Join us for exciting content, updates, and a welcoming community for everyone.</p>
+      </section>
+
+      <section id="links" class="content-card">
+        <div class="section-heading">
+          <p class="eyebrow">Links</p>
+          <h2>All my social links</h2>
+        </div>
+        <div id="links-list" class="link-grid" aria-label="Quick links"></div>
+      </section>
+
+      <footer class="page-footer">
+        <small>© 2026 Coconut's Palmtree | Website By: itzvoidblocksyt_hehe</small>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
